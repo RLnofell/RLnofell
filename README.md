@@ -6,7 +6,17 @@
 
 <h3 align="center">A passionate frontend developer from Vietnam</h3>
 
-<img align="right" alt="coding" width="250" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/slogan.jpg" style="border-radius: 10px;">
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%;">
+    </td>
+    <td>
+      <img alt="coding" width="200" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/slogan.jpg" style="border-radius: 10px;">
+    </td>
+  </tr>
+</table>
+
 
 
 - 🌱 I’m currently learning **React**
@@ -14,10 +24,6 @@
 - 📫 Reach me at **thanhphohochiminh5@gmail.com**
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" />
-</p>
 
 
 <h3 align="left">Connect with me:</h3>
