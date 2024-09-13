@@ -6,7 +6,7 @@
 
 <h3 align="center">A passionate frontend developer from Vietnam</h3>
 
-<img align="right" alt="coding" width="250" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/Git%20profile/slogan.jpg" style="border-radius: 10px;">
+<img align="right" alt="coding" width="250" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/slogan.jpg" style="border-radius: 10px;">
 
 
 - 🌱 I’m currently learning **React**
