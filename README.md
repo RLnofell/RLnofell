@@ -4,7 +4,7 @@
     </h1>
 </div>
 
-<h3 align="center">A passionate frontend developer from Vietnam</h3>
+<h3 align="center">A passionate fullstack developer from Vietnam</h3>
 
 <table>
   <tr>
@@ -20,7 +20,7 @@
 
 
 - 🌱 I’m currently learning **React**
-- 💬 Ask me about **React, JavaScript, and Frontend Development**
+- 💬 Ask me about **React, JavaScript, and Fullstack Development**
 - 📫 Reach me at **thanhphohochiminh5@gmail.com**
 
 ---
