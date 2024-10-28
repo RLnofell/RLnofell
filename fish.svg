@@ -3,49 +3,22 @@
     .cloud {
       fill: white;
       filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
-      animation: float 4s linear infinite;
+      animation: float 6s linear infinite;
     }
     
-    /* Hiệu ứng sóng cho đám mây */
     @keyframes float {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(15px); }
-      100% { transform: translateX(0); }
+      0% { transform: translateX(20px); }
+      50% { transform: translateX(105px); }
+      100% { transform: translateX(20px); }
     }
   </style>
-  
-  <!-- Đám mây 1 -->
-  <g class="cloud" transform="translate(50, 60)">
-    <ellipse cx="30" cy="20" rx="30" ry="20" />
-    <ellipse cx="60" cy="20" rx="40" ry="25" />
-    <ellipse cx="10" cy="30" rx="25" ry="15" />
-  </g>
-  
-  <!-- Đám mây 2 -->
-  <g class="cloud" transform="translate(150, 40)">
-    <ellipse cx="30" cy="20" rx="25" ry="15" />
-    <ellipse cx="60" cy="20" rx="35" ry="20" />
-    <ellipse cx="40" cy="30" rx="20" ry="10" />
-  </g>
 
-  <!-- Đám mây 3 -->
-  <g class="cloud" transform="translate(300, 70)">
-    <ellipse cx="30" cy="20" rx="35" ry="20" />
-    <ellipse cx="60" cy="20" rx="45" ry="25" />
-    <ellipse cx="10" cy="30" rx="25" ry="15" />
+  <g class="cloud" transform="translate(660, 70)">
+    <ellipse cx="50" cy="30" rx="80" ry="40" />
+    <ellipse cx="120" cy="40" rx="70" ry="35" />
+    <ellipse cx="200" cy="30" rx="90" ry="45" />
+    <ellipse cx="270" cy="40" rx="75" ry="37" />
+    <ellipse cx="350" cy="30" rx="80" ry="40" />
   </g>
   
-  <!-- Đám mây 4 -->
-  <g class="cloud" transform="translate(400, 50)">
-    <ellipse cx="30" cy="20" rx="30" ry="20" />
-    <ellipse cx="60" cy="20" rx="40" ry="25" />
-    <ellipse cx="10" cy="30" rx="25" ry="15" />
-  </g>
-  
-  <!-- Đám mây 5 -->
-  <g class="cloud" transform="translate(500, 30)">
-    <ellipse cx="30" cy="20" rx="25" ry="15" />
-    <ellipse cx="60" cy="20" rx="35" ry="20" />
-    <ellipse cx="40" cy="30" rx="20" ry="10" />
-  </g>
 </svg>
