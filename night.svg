@@ -1,9 +1,30 @@
 <svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
   <style>
+    .cloud {
+      fill: url(#cloudGradient); 
+      filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
+    }
+
+    .sun {
+      fill: #FFD700;
+      filter: drop-shadow(0 0 8px rgba(255, 223, 0, 0.6));
+    }
+
     .star {
       fill: yellow;
       opacity: 0.8;
       animation: twinkle 1.5s infinite alternate;
+    }
+
+    @keyframes float {
+      0% { transform: translateX(0px); }
+      50% { transform: translateX(40px); }
+      100% { transform: translateX(0px); }
+    }
+
+    @keyframes bobbing {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(6px); }
     }
 
     @keyframes twinkle {
@@ -16,34 +37,36 @@
     }
   </style>
 
-  <!-- Ngôi sao 1 -->
+  <defs>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #ffffff; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #e0e0e0; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+
+  <circle class="sun" cx="380" cy="50" r="40" />
+
+  <g class="cloud" style="animation: float 20s linear infinite;">
+    <ellipse cx="120" cy="90" rx="80" ry="35" style="animation: bobbing 10s ease-in-out infinite; animation-delay: 2s;" />
+    <ellipse cx="190" cy="100" rx="70" ry="30" style="animation: bobbing 12s ease-in-out infinite; animation-delay: 3s;" />
+    <ellipse cx="270" cy="90" rx="90" ry="40" style="animation: bobbing 10s ease-in-out infinite; animation-delay: 2.5s;" />
+    <ellipse cx="340" cy="100" rx="75" ry="32" style="animation: bobbing 12s ease-in-out infinite; animation-delay: 3.5s;" />
+    <ellipse cx="410" cy="100" rx="85" ry="35" style="animation: bobbing 11s ease-in-out infinite; animation-delay: 4s;" />
+  </g>
+
   <polygon class="star" points="300,75 302,78 298,78 300,76" />
-  <!-- Ngôi sao 2 -->
   <polygon class="star" points="100,30 102,32 98,32 100,31" style="animation-delay: 0.2s;" />
-  <!-- Ngôi sao 3 -->
   <polygon class="star" points="200,120 202,122 198,122 200,121" style="animation-delay: 0.4s;" />
-  <!-- Ngôi sao 4 -->
   <polygon class="star" points="450,50 452,52 448,52 450,51" style="animation-delay: 0.6s;" />
-  <!-- Ngôi sao 5 -->
   <polygon class="star" points="350,100 352,102 348,102 350,101" style="animation-delay: 0.8s;" />
-  <!-- Ngôi sao 6 -->
   <polygon class="star" points="500,30 502,32 498,32 500,31" style="animation-delay: 1s;" />
-  <!-- Ngôi sao 7 -->
   <polygon class="star" points="60,80 62,82 58,82 60,81" style="animation-delay: 1.2s;" />
-  <!-- Ngôi sao 8 -->
   <polygon class="star" points="540,90 542,92 538,92 540,91" style="animation-delay: 1.4s;" />
-  <!-- Ngôi sao 9 -->
   <polygon class="star" points="20,40 22,42 18,42 20,41" style="animation-delay: 1.6s;" />
-  <!-- Ngôi sao 10 -->
   <polygon class="star" points="150,20 152,22 148,22 150,21" style="animation-delay: 1.8s;" />
-  <!-- Ngôi sao 11 -->
   <polygon class="star" points="400,130 402,132 398,132 400,131" style="animation-delay: 2s;" />
-  <!-- Ngôi sao 12 -->
   <polygon class="star" points="250,10 252,12 248,12 250,11" style="animation-delay: 2.2s;" />
-  <!-- Ngôi sao 13 -->
   <polygon class="star" points="80,100 82,102 78,102 80,101" style="animation-delay: 2.4s;" />
-  <!-- Ngôi sao 14 -->
   <polygon class="star" points="500,110 502,112 498,112 500,111" style="animation-delay: 2.6s;" />
-  <!-- Ngôi sao 15 -->
   <polygon class="star" points="600,50 602,52 598,52 600,51" style="animation-delay: 2.8s;" />
 </svg>
