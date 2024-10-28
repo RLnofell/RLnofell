@@ -1,12 +1,6 @@
 ![catchmeifyoucan](https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/fish.svg)
 
-<div align="center">
-    <h1 style="text-decoration: none;">
-        <a href="#" style="text-decoration: none;">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Jetbrains+mono&size=40&duration=3000&color=17aaec&center=true&vCenter=true&width=435&lines=+Hi..+I'm+RainPauL;This+is..;..my+Github..;" alt="Typing SVG"/>
-        </a>
-    </h1>
-</div>
+![catchmeifyoucan99](https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/rainpaul.svg)
 
 
 ![catchmeifyoucan99](https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/bottom_header.svg)
