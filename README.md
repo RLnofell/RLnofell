@@ -7,7 +7,7 @@
 
 <h3 align="center">A passionate fullstack developer from Vietnam</h3>
 
-<table>
+<table align="center">
   <tr>
     <td>
       <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%; height:auto;">
