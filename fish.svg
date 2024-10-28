@@ -1,58 +1,51 @@
-<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-  <!-- Bể cá hình vuông -->
-  <rect x="10" y="10" width="480" height="480" fill="none" stroke="#0000FF" stroke-width="5" opacity="0.5" rx="20" />
+<svg viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cloud {
+      fill: white;
+      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+      animation: float 4s linear infinite;
+    }
+    
+    /* Hiệu ứng sóng cho đám mây */
+    @keyframes float {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(15px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+  
+  <!-- Đám mây 1 -->
+  <g class="cloud" transform="translate(50, 60)">
+    <ellipse cx="30" cy="20" rx="30" ry="20" />
+    <ellipse cx="60" cy="20" rx="40" ry="25" />
+    <ellipse cx="10" cy="30" rx="25" ry="15" />
+  </g>
+  
+  <!-- Đám mây 2 -->
+  <g class="cloud" transform="translate(150, 40)">
+    <ellipse cx="30" cy="20" rx="25" ry="15" />
+    <ellipse cx="60" cy="20" rx="35" ry="20" />
+    <ellipse cx="40" cy="30" rx="20" ry="10" />
+  </g>
 
-  <!-- Con cá 1 -->
-  <circle cx="50" cy="50" r="10" fill="#FF6347">
-    <animate attributeName="cx" values="50;450;50" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="50;100;50" dur="4s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 2 -->
-  <circle cx="450" cy="100" r="12" fill="#FFD700">
-    <animate attributeName="cx" values="450;50;450" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="100;300;100" dur="7s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 3 -->
-  <circle cx="100" cy="450" r="8" fill="#ADFF2F">
-    <animate attributeName="cx" values="100;400;100" dur="4.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="450;50;450" dur="5.5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 4 -->
-  <circle cx="400" cy="200" r="10" fill="#87CEFA">
-    <animate attributeName="cx" values="400;100;400" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="200;400;200" dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 5 -->
-  <circle cx="150" cy="150" r="9" fill="#FF69B4">
-    <animate attributeName="cx" values="150;350;150" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="150;250;150" dur="4.5s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 6 -->
-  <circle cx="300" cy="350" r="11" fill="#8A2BE2">
-    <animate attributeName="cx" values="300;200;300" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="350;150;350" dur="6s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 7 -->
-  <circle cx="250" cy="100" r="10" fill="#FFA500">
-    <animate attributeName="cx" values="250;450;250" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="100;400;100" dur="4s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 8 -->
-  <circle cx="400" cy="400" r="8" fill="#40E0D0">
-    <animate attributeName="cx" values="400;50;400" dur="5.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="400;50;400" dur="7s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Con cá 9 -->
-  <circle cx="200" cy="200" r="12" fill="#DC143C">
-    <animate attributeName="cx" values="200;350;200" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="200;450;200" dur="5s" repeatCount="indefinite"/>
-  </circle>
+  <!-- Đám mây 3 -->
+  <g class="cloud" transform="translate(300, 70)">
+    <ellipse cx="30" cy="20" rx="35" ry="20" />
+    <ellipse cx="60" cy="20" rx="45" ry="25" />
+    <ellipse cx="10" cy="30" rx="25" ry="15" />
+  </g>
+  
+  <!-- Đám mây 4 -->
+  <g class="cloud" transform="translate(400, 50)">
+    <ellipse cx="30" cy="20" rx="30" ry="20" />
+    <ellipse cx="60" cy="20" rx="40" ry="25" />
+    <ellipse cx="10" cy="30" rx="25" ry="15" />
+  </g>
+  
+  <!-- Đám mây 5 -->
+  <g class="cloud" transform="translate(500, 30)">
+    <ellipse cx="30" cy="20" rx="25" ry="15" />
+    <ellipse cx="60" cy="20" rx="35" ry="20" />
+    <ellipse cx="40" cy="30" rx="20" ry="10" />
+  </g>
 </svg>
