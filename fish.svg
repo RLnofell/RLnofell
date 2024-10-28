@@ -1,37 +1,41 @@
-<svg viewBox="0 0 530 150" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
   <style>
     .cloud {
-      fill: white;
-      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
-      animation: float 5s ease-in-out infinite, bobbing 5s ease-in-out infinite;
+      fill: url(#cloudGradient); 
+      filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
     }
 
     .sun {
-      fill: yellow;
-      filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+      fill: #FFD700;
+      filter: drop-shadow(0 0 8px rgba(255, 223, 0, 0.6));
     }
 
-    /* Hiệu ứng di chuyển ngang */
     @keyframes float {
       0% { transform: translateX(0px); }
       50% { transform: translateX(40px); }
       100% { transform: translateX(0px); }
     }
-
-    /* Hiệu ứng lên xuống nhẹ nhàng */
+    
     @keyframes bobbing {
       0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(5px); }
+      50% { transform: translateY(6px); }
     }
   </style>
 
-  <circle class="sun" cx="390" cy="50" r="40" />
-  
-  <g class="cloud">
-    <ellipse cx="120" cy="90" rx="80" ry="35" />
-    <ellipse cx="190" cy="100" rx="70" ry="30" />
-    <ellipse cx="270" cy="90" rx="90" ry="40" />
-    <ellipse cx="340" cy="100" rx="75" ry="32" />
-    <ellipse cx="410" cy="100" rx="85" ry="35" />
+  <defs>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #ffffff; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #e0e0e0; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+
+  <circle class="sun" cx="380" cy="50" r="40" />
+
+  <g class="cloud" style="animation: float 20s linear infinite;">
+    <ellipse cx="120" cy="90" rx="80" ry="35" style="animation: bobbing 10s ease-in-out infinite; animation-delay: 2s;" />
+    <ellipse cx="190" cy="100" rx="70" ry="30" style="animation: bobbing 12s ease-in-out infinite; animation-delay: 3s;" />
+    <ellipse cx="270" cy="90" rx="90" ry="40" style="animation: bobbing 10s ease-in-out infinite; animation-delay: 2.5s;" />
+    <ellipse cx="340" cy="100" rx="75" ry="32" style="animation: bobbing 12s ease-in-out infinite; animation-delay: 3.5s;" />
+    <ellipse cx="410" cy="100" rx="85" ry="35" style="animation: bobbing 11s ease-in-out infinite; animation-delay: 4s;" />
   </g>
 </svg>
