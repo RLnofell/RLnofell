@@ -4,6 +4,7 @@
     </h1>
 </div>
 
+
 <h3 align="center">A passionate fullstack developer from Vietnam</h3>
 
 <table>
@@ -12,24 +13,26 @@
       <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%; height:290px;">
     </td>
     <td>
-      <img alt="coding" width="100%" height="260px" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/anime.gif" style="border-radius: 30px;">
+      <img alt="coding" width="100%" height="255px" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/anime.gif" style="border-radius: 30px;">
     </td>
   </tr>
 </table>
 
 <div align=center>
-   <a href="https://github.com/Sabyasachi-Seal">
-   <img height=50 width=100% src="https://raw.githubusercontent.com/Sabyasachi-Seal/Sabyasachi-Seal/ouput/divider.gif">
+   <a href="https://github.com/catchmeifyoucan99">
+   <img height=50 width=100% src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/divider.gif">
    </a>
 </div>
-
-
 
 - 🌱 I’m currently learning **React**
 - 💬 Ask me about **React, JavaScript, and Fullstack Development**
 - 📫 Reach me at **thanhphohochiminh5@gmail.com**
 
----
+<div align=center>
+   <a href="https://github.com/catchmeifyoucan99">
+   <img height=50 width=100% src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/divider.gif">
+   </a>
+</div>
 
 
 <h3 align="left">Connect with me:</h3>
@@ -42,7 +45,7 @@
   </a>
 </p>
 
----
+
 <h3 align="left">Languages and Tools:</h3>
 
 <h4 align="center">Main Technologies</h4>
