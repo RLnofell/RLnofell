@@ -9,18 +9,14 @@
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%;">
+      <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%; height:290px;">
     </td>
     <td>
-      <img alt="coding" width="200" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/slogan.jpg" style="border-radius: 10px;">
+      <img alt="coding" width="100%" height="260px" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/anime.gif" style="border-radius: 30px;">
     </td>
   </tr>
 </table>
 
-<div align="center" >
-   <a href="https://github.com/cathcmeifyoucan99">
-   <img width=100% src=""https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/rainpaul.gif" href="https://github.com/catchmeifyoucan99" /></a>
-</div>
 <div align=center>
    <a href="https://github.com/Sabyasachi-Seal">
    <img height=50 width=100% src="https://raw.githubusercontent.com/Sabyasachi-Seal/Sabyasachi-Seal/ouput/divider.gif">
