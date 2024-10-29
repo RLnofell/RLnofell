@@ -47,7 +47,6 @@
 
 <h3 align="left">My nonsense:</h3>
 
-![catchmeifyoucan99](https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/comment.svg)
 
 <h3 align="left">Languages and Tools:</h3>
 
