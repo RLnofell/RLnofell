@@ -5,7 +5,7 @@
 
 ![catchmeifyoucan99](https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/bottom_header.svg)
 
-<h3 align="center">A passionate fullstack developer from Vietnam</h3>
+<h3 align="center">A creative and passionate frontend developer from Vietnam, specializing in modern web technologies.</h3>
 
 <table align="center">
   <tr>
