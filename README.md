@@ -25,7 +25,7 @@
 </div>
 
 - 🌱 I’m currently learning **React**
-- 💬 Ask me about **React, JavaScript, and Fullstack Development**
+- 💬 About me **React, JavaScript, and I'm a skilled frontend developer with a passion for crafting clean, interactive user interfaces. While my primary focus is on frontend development, I also have foundational knowledge of backend development**
 - 📫 Reach me at **thanhphohochiminh5@gmail.com**
 
 <div align=center>
