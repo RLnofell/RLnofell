@@ -35,12 +35,12 @@
 </div>
 
 
-<h3 align="left">Connect with me:</h3>
+<h4 align="left">Connect with me:</h4>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-Rain%20PauL-blue?logo=LinkedIn&logoColor=blue&labelColor=black)](https://www.linkedin.com/in/rlnofell/)
 [![Mail](https://img.shields.io/badge/Gmail-thanhphohochiminh5@gmail.com-blue?logo=Gmail&logoColor=red&labelColor=black)](thanhphohochiminh5@gmail.com)
 
-<h3 align="left">Languages and Tools:</h3>
+<h4 align="left">Languages and Tools:</h4>
 
 ![Git](https://img.shields.io/badge/-Git-000000?style=flat&logo=git&logoColor=F05032&labelColor=ffffff)
 ![GitHub](https://img.shields.io/badge/-GitHub-000000?style=flat&logo=github&logoColor=000000&labelColor=ffffff)
