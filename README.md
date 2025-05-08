@@ -10,7 +10,7 @@
 <table align="center">
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=catchmeifyoucan99&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%; height:auto;">
+      <img src="https://github-readme-stats.vercel.app/api?username=RLnofell&show_icons=true&theme=transparent" alt="RainPauL GitHub stats" style="width:100%; height:auto;">
     </td>
     <td>
       <img alt="coding" width="100%" height="190px" src="https://github.com/catchmeifyoucan99/catchmeifyoucan99/blob/main/anime.gif" style="border-radius: 30px;">
