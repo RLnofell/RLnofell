@@ -38,7 +38,7 @@
 <h4 align="left">Connect with me:</h4>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-Rain%20PauL-blue?logo=LinkedIn&logoColor=blue&labelColor=black)](https://www.linkedin.com/in/rlnofell/)
-[![Mail](https://img.shields.io/badge/Gmail-thanhphohochiminh5@gmail.com-blue?logo=Gmail&logoColor=red&labelColor=black)](thanhphohochiminh5@gmail.com)
+[![Mail](https://img.shields.io/badge/Gmail-rlnofell9@gmail.com-blue?logo=Gmail&logoColor=red&labelColor=black)](rlnofell9@gmail.com)
 
 <h4 align="left">Languages and Tools:</h4>
 
@@ -50,5 +50,6 @@
 ![React](https://img.shields.io/badge/-React-000000?style=flat&logo=react)
 ![Redux](https://img.shields.io/badge/-Redux-000000?style=flat&logo=redux&logoColor=764ABC&labelColor=ffffff)
 ![Nodejs](https://img.shields.io/badge/-Nodejs-000000?style=flat&logo=Node.js)
+
 
 
